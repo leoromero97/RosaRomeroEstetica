@@ -1,0 +1,18 @@
+@import './reset.css';
+@import './header.css';
+@import './home.css';
+
+body,
+html {
+  /*
+  font-family: 'Kaushan Script', cursive;
+  color: #4e6274;
+  titulos*/
+  font-family: 'Playfair Display SC', serif;
+  /*texto*/
+  margin: 0;
+  padding: 0;
+  color: black;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}

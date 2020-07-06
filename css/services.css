@@ -1,0 +1,169 @@
+#services {
+  padding: 0;
+  width: 100%;
+  margin: auto;
+  overflow: scroll;
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background: #ffffff;
+  background: linear-gradient(to Right, #ffffff, hsla(0, 0%, 100%, 0.219)), url(../img/fondo2.png);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.containerServices {
+  padding: 0;
+  width: 96%;
+  max-width: 1400px;
+  margin: auto;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  justify-content: space-between;
+}
+
+.containerTitle {
+  border: 2px solid red;
+}
+
+.containerCards {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contentServices {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 4px;
+}
+
+.servicesCard {
+  background: white;
+  width: 290px;
+  height: 210px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, .5);
+}
+
+.imgServices {
+  height: 90%;
+  width: 80%;
+}
+
+.hoverServices {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  background: hsla(0, 0%, 0%, 0.514);
+  transition: transform .5s;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  -webkit-transition: transform .5s;
+  -moz-transition: transform .5s;
+  -ms-transition: transform .5s;
+  -o-transition: transform .5s;
+}
+
+.hoverServices h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hoverServices p {
+  color: white;
+  font-size: 16px;
+  border: 2px solid white;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.servicesCard:hover .hoverServices {
+  transform: scale(1);
+}
+
+.servicesCard:hover .imgServices {
+  opacity: 0.3;
+}
+
+@media screen and (max-width:950px) {
+  #services {
+    height: 1600px;
+  }
+
+  .containerServices {
+    height: 1600px;
+  }
+
+  .containerCards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .contentServices {
+    flex-direction: column;
+    width: 46%;
+  }
+
+  .servicesCard {
+    width: 260px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  #services {
+    height: 2700px;
+
+  }
+
+  .containerServices {
+    height: 2700px;
+    justify-content: space-evenly;
+  }
+
+  .containerCards {
+    flex-direction: column;
+  }
+
+  .contentServices {
+    width: 94%;
+    height: 24%;
+  }
+
+  .servicesCard {
+    max-width: 240px;
+    height: 160px;
+  }
+}

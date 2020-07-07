@@ -30,7 +30,7 @@
 }
 
 .containerTitle {
-  border: 2px solid red;
+  width: 100%;
 }
 
 .containerCards {
@@ -146,11 +146,11 @@
 
 @media screen and (max-width:650px) {
   #services {
-    height: 2700px;
+    height: 2600px;
   }
 
   .containerServices {
-    height: 2700px;
+    height: 2600px;
     justify-content: space-evenly;
   }
 
@@ -164,7 +164,7 @@
   }
 
   .servicesCard {
-    width: 70%;
+    width: 86%;
     height: 166px;
   }
 }

@@ -1,0 +1,125 @@
+#clients {
+  padding: 0;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background: #ffffff;
+  background: linear-gradient(to Right, #ffffff, hsla(0, 0%, 100%, 0.219)), url(../img/fondo2.png);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerClients {
+  padding: 0;
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  justify-content: space-between;
+}
+
+.contentClients {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 98%;
+  height: 50%;
+}
+
+.cardClients {
+  width: 400px;
+  height: 240px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background:linear-gradient(to Right, #ffffff, hsla(0, 0%, 100%, 0.774)), url(../img/fondo2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 4px black;
+}
+
+.cardClients h3 {
+  font-size: 26px;
+  background: rgb(245, 212, 212);
+  text-align: center;
+  width: 90%;
+  height: 30px;
+}
+
+.comillas {
+  height: 18px;
+  margin: 0 16px;
+}
+
+@media screen and (max-width:950px) {
+  #clients {
+    height: 1600px;
+  }
+  .containerClients {
+    width: 100%;
+    height: 1400px;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .cardClients {
+    width: 70%;
+    height: 280px;
+    padding: 0 10px;
+  }
+
+  .cardClients h3 {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cardClients p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .comillas {
+    height: 12px;
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .cardClients h3 {
+    font-size: 14px;
+  }
+
+  .cardClients p {
+    font-size: 8px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .comillas {
+    height: 12px;
+    margin: 0 16px;
+  }
+}

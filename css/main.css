@@ -4,6 +4,8 @@
 @import './about.css';
 @import './services.css';
 @import './bidding.css';
+@import './clients.css';
+@import './footer.css';
 
 body,
 html {

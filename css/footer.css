@@ -34,11 +34,17 @@
   font-family: 'Cinzel', serif;
   margin-bottom: 60px;
   font-weight: bolder;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #0aaf3498;
 }
 
 .contentenidoFooter p,
 .contentenidoFooter a {
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   padding-bottom: 6px;
 }
@@ -107,19 +113,20 @@
   }
 
   .contentenidoFooter h3 {
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 0px;
     margin-top: 10px;
+    height: 36px;
   }
 
   .contentenidoFooter p,
   .contentenidoFooter a {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .firma {
     font-size: 12px;
-    margin: 60px 0 0 0;
+    margin: 50px 0 0 0;
   }
 
   .cash {

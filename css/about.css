@@ -35,6 +35,10 @@
   justify-content: space-between;
 }
 
+.subContainerAbout:nth-child(2) {
+  background: #f3b1b1;
+}
+
 .contentAbout1 {
   height: 100%;
   width: 50%;
@@ -55,7 +59,7 @@
 }
 
 .name {
-  font-size: 60px;
+  font-size: 64px;
   font-weight: bold;
   font-family: 'Kaushan Script', cursive;
   text-align: center;
@@ -63,10 +67,9 @@
 }
 
 .text {
-  font-size: 16px;
-  padding: 0 20px;
-  line-height: 40px;
-  background: rgba(255, 233, 246, 0.356);
+  font-size: 18px;
+  padding: 0 100px;
+  line-height: 32px;
 }
 
 @media screen and (max-width:950px) {
@@ -75,8 +78,8 @@
   }
 
   .text {
-    font-size: 14px;
-    line-height: 30px;
+    padding: 0 40px;
+    line-height: 28px;
   }
 }
 
@@ -99,14 +102,39 @@
   }
 
   .name {
-    font-size: 30px;
+    font-size: 34px;
     margin-bottom: 0px;
   }
 
   .text {
-    font-size: 11px;
-    line-height: 22px;
-    padding: 0 40px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 20px;
     margin: 10px 0;
+  }
+
+  .subContainerAbout:nth-child(2) {
+    background: white;
+  }
+}
+
+@media screen and (max-width:350px) {
+  #about {
+    height: 1000px;
+  }
+
+  .containerAbout {
+    height: 900px;
+  }
+
+  .name {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .text {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 10px;
   }
 }

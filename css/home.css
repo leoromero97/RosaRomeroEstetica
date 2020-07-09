@@ -3,7 +3,7 @@
   width: 100%;
   margin: auto;
   overflow: hidden;
-  height: 1000px;
+  height: 860px;
   background-repeat: no-repeat;
   background-position-x: center;
   background: #ffffff;
@@ -51,8 +51,7 @@
 }
 
 .slogan {
-  font-size: 30px;
-  font-family: 'Playfair Display SC', serif;
+  font-size: 44px;
 }
 
 .containerButtonHome {
@@ -153,9 +152,14 @@
 }
 
 @media screen and (max-width:650px) {
+  #home {
+    height: 720px;
+  }
+
   .titleHome {
     font-size: 50px;
   }
+
   .slogan {
     font-size: 22px;
   }

@@ -76,11 +76,11 @@
   -moz-transform: perspective(600px) rotateY(0deg);
   -ms-transform: perspective(600px) rotateY(0deg);
   -o-transform: perspective(600px) rotateY(0deg);
-  background-color: #f5d4d4;
+  background-color: white;
 }
 
 .back {
-  background: rgb(236, 148, 148);
+  background:#f3b1b1;
   transform: perspective(600px) rotateY(180deg);
   -webkit-transform: perspective(600px) rotateY(180deg);
   -moz-transform: perspective(600px) rotateY(180deg);
@@ -96,13 +96,13 @@
 
 .back h3 {
   color: white;
-  font-size: 30px;
+  font-size: 34px;
   font-weight: bold;
 }
 
 .back p {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .card:hover>.front {
@@ -141,11 +141,5 @@
     cursor: pointer;
     width: 90%;
     height: 240px;
-  }
-}
-
-@media screen and (max-width:650px) {
-  .back p {
-    font-size: 19px;
   }
 }

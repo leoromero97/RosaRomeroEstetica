@@ -43,7 +43,7 @@
   margin-bottom: 10px;
   overflow: hidden;
   cursor: pointer;
-  padding: 0 50px;
+  padding: 0 40px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -56,11 +56,16 @@
 }
 
 .cardClients h3 {
-  font-size: 26px;
-  background: rgb(245, 212, 212);
+  font-size: 28px;
+  background: #f3b1b1;
   text-align: center;
   width: 90%;
   height: 30px;
+}
+
+.cardClients p {
+  font-size: 22px;
+  text-align: center;
 }
 
 .comillas {
@@ -94,10 +99,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
   }
 
   .cardClients p {
-    font-size: 14px;
     width: 100%;
   }
 
@@ -107,13 +112,13 @@
   }
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:350px) {
   .cardClients h3 {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .cardClients p {
-    font-size: 8px;
+    font-size: 16px;
     line-height: 20px;
     text-align: center;
   }

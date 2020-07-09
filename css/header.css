@@ -27,6 +27,10 @@ ul {
   margin: 0 12px;
 }
 
+.item a {
+  color: black;
+}
+
 .containerBurger {
   height: 80%;
   width: 4%;

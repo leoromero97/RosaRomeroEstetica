@@ -35,7 +35,7 @@
 
 .containerCards {
   display: flex;
-  width: 100%;
+  width: 98%;
   height: 90%;
   flex-direction: column;
   align-items: center;

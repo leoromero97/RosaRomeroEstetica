@@ -76,7 +76,7 @@
   -moz-transform: perspective(600px) rotateY(0deg);
   -ms-transform: perspective(600px) rotateY(0deg);
   -o-transform: perspective(600px) rotateY(0deg);
-  background-color: rgb(245, 212, 212);
+  background-color: #f5d4d4;
 }
 
 .back {
@@ -146,6 +146,6 @@
 
 @media screen and (max-width:650px) {
   .back p {
-    font-size: 17px;
+    font-size: 19px;
   }
 }

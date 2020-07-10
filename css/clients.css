@@ -52,7 +52,18 @@
   background:linear-gradient(to Right, #ffffff, hsla(0, 0%, 100%, 0.774)), url(../img/fondo2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 0 4px black;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .5);
+}
+
+.cardClients:hover {
+  width: 410px;
+  height: 250px;
+  box-shadow: 0 0 10px black;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
 }
 
 .cardClients h3 {

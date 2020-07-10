@@ -49,8 +49,12 @@
   padding-bottom: 6px;
 }
 
+.contentenidoFooter a {
+  height: 110px;
+}
+
 .contentenidoFooter a:hover {
-  background-color: #2ecc55;
+  background: #0f5021;
 }
 
 .firma {

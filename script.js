@@ -84,3 +84,61 @@ const navSlide = () => {
   });
 };
 navSlide();
+
+//Animacion de las secciones
+const animationAbout = () => {
+  let containerAbout = document.querySelector(".containerAbout");
+
+  window.addEventListener("scroll", () => {
+    let currentHeight = window.scrollY; //parte superior de la pantalla
+    let sloganPositionY = containerAbout.scrollHeight - 850;
+
+    if (currentHeight >= sloganPositionY) {
+      containerAbout.classList.add("aparecer");
+    }
+  });
+};
+animationAbout();
+
+const animationServices = () => {
+  let containerServices = document.querySelector(".containerServices");
+
+  window.addEventListener("scroll", () => {
+    let currentHeight2 = window.scrollY; //parte superior de la pantalla
+    let sloganPositionY2 = containerServices.scrollHeight + 400;
+
+    if (currentHeight2 >= sloganPositionY2) {
+      containerServices.classList.add("aparecer");
+    }
+  });
+};
+animationServices();
+
+
+const animationBidding = () => {
+  let containerBidding = document.querySelector(".containerBidding");
+
+  window.addEventListener("scroll", () => {
+    let currentHeight3 = window.scrollY; //parte superior de la pantalla
+    let sloganPositionY3 = containerBidding.scrollHeight + 1300;
+
+    if (currentHeight3 >= sloganPositionY3) {
+      containerBidding.classList.add("aparecer");
+    }
+  });
+};
+animationBidding();
+
+const animationClients = () => {
+  let containerClients = document.querySelector(".containerClients");
+
+  window.addEventListener("scroll", () => {
+    let currentHeight4 = window.scrollY; //parte superior de la pantalla
+    let sloganPositionY4 = containerClients.scrollHeight + 2800;
+
+    if (currentHeight4 >= sloganPositionY4) {
+      containerClients.classList.add("aparecer");
+    }
+  });
+};
+animationClients();

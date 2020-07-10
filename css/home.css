@@ -39,6 +39,7 @@
   font-size: 80px;
   font-weight: bold;
   font-family: 'Kaushan Script', cursive;
+  line-height: 80px;
 }
 
 .containerSlogan {
@@ -139,7 +140,6 @@
 @media screen and (max-width:950px) {
   .titleHome {
     font-size: 64px;
-    line-height: 80px;
   }
 
   .slogan {
@@ -157,7 +157,7 @@
   }
 
   .titleHome {
-    font-size: 50px;
+    font-size: 44px;
   }
 
   .slogan {
@@ -166,5 +166,11 @@
 
   .enter {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width:350px) {
+  #home {
+    height: 840px;
   }
 }

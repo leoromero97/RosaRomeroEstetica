@@ -1,14 +1,16 @@
 #header {
-  border-bottom: 3px solid #034d16de;
   height: 120px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 10px;
+  position: fixed;
+  background: white;
+  z-index: 1;
 }
 
-nav {
+.links {
   width: 90%;
   height: 80%;
   padding: 0;
@@ -35,6 +37,7 @@ ul {
   height: 80%;
   width: 4%;
   display: none;
+  cursor: pointer;
 }
 
 .burger {
@@ -73,7 +76,7 @@ ul {
 }
 
 .logo {
-  height: 70%;
+  height: 90%;
 }
 
 @media screen and (max-width:950px) {
@@ -82,7 +85,7 @@ ul {
     padding: 10px 0px;
   }
 
-  nav {
+  .links {
     width: 100%;
     height: 50%;
     order: 2;
@@ -103,7 +106,7 @@ ul {
   }
 
   .logo {
-    height: 100%;
+    height: 120%;
   }
 }
 
@@ -112,10 +115,44 @@ ul {
   #header {
     flex-direction: row;
     padding: 0px 0px;
+    height: 80px;
   }
 
-  nav {
-    display: none;
+  .links {
+    position: fixed;
+    left: 0;
+    top: 70px;
+    height: 90%;
+    width: 60%;
+    transform: translateX(-100px);
+    -webkit-transform: translateX(-500px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+  }
+
+  .sidebar {
+    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+    z-index: 1;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-left: 40px;
+    background: white;
+    z-index: 1;
   }
 
   .containerBurger {
@@ -128,6 +165,18 @@ ul {
   }
 
   .logo {
-    height: 70%;
+    height: 140%;
+  }
+
+  .dark {
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    visibility: hidden;
   }
 }

@@ -16,6 +16,66 @@ window.onscroll = function () {
 const navSlide = () => {
   let burger = document.querySelector(".burger");
   let topbar = document.querySelector(".links");
+  let inicio = document.getElementById("inicioI");
+  let sobreMi = document.getElementById("sobreMiI");
+  let servicio = document.getElementById("servicioI");
+  let promociones = document.getElementById("promocionesI");
+  let clientes = document.getElementById("clientesI");
+  let contacto = document.getElementById("contactoI");
+
+  inicio.addEventListener("click", () => {
+    inicio.classList.add("state");
+    sobreMi.classList.remove("state");
+    servicio.classList.remove("state");
+    promociones.classList.remove("state");
+    clientes.classList.remove("state");
+    contacto.classList.remove("state");
+  });
+
+  sobreMi.addEventListener("click", () => {
+    sobreMi.classList.add("state");
+    inicio.classList.remove("state");
+    servicio.classList.remove("state");
+    promociones.classList.remove("state");
+    clientes.classList.remove("state");
+    contacto.classList.remove("state");
+  });
+
+  servicio.addEventListener("click", () => {
+    servicio.classList.add("state");
+    inicio.classList.remove("state");
+    sobreMi.classList.remove("state");
+    promociones.classList.remove("state");
+    clientes.classList.remove("state");
+    contacto.classList.remove("state");
+  });
+
+  promociones.addEventListener("click", () => {
+    promociones.classList.add("state");
+    inicio.classList.remove("state");
+    sobreMi.classList.remove("state");
+    servicio.classList.remove("state");
+    clientes.classList.remove("state");
+    contacto.classList.remove("state");
+  });
+
+  clientes.addEventListener("click", () => {
+    clientes.classList.add("state");
+    inicio.classList.remove("state");
+    sobreMi.classList.remove("state");
+    servicio.classList.remove("state");
+    promociones.classList.remove("state");
+    contacto.classList.remove("state");
+  });
+
+  contacto.addEventListener("click", () => {
+    contacto.classList.add("state");
+    inicio.classList.remove("state");
+    sobreMi.classList.remove("state");
+    servicio.classList.remove("state");
+    promociones.classList.remove("state");
+    clientes.classList.remove("state");
+  });
 
   burger.addEventListener("click", () => {
     topbar.classList.toggle("sidebar");

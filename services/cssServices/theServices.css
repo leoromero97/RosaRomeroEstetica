@@ -1,0 +1,225 @@
+#theServices {
+  padding: 100px 0 0 0;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  height: 1300px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background: #ffffff;
+  background: linear-gradient(to Right, #ffffff, hsla(0, 0%, 100%, 0.219)), url(../../img/fondo2.png);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerTheServices {
+  padding: 0;
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  animation: aparecer 1.2s ease-in;
+  -webkit-animation: aparecer 1.2s ease-in;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(500px);
+    -webkit-transform: translateY(500px);
+    -moz-transform: translateY(500px);
+    -ms-transform: translateY(500px);
+    -o-transform: translateY(500px);
+  }
+
+  25% {
+    opacity: 0.2;
+    transform: translateY(300px);
+    -webkit-transform: translateY(300px);
+    -moz-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    -o-transform: translateY(300px);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+  }
+}
+
+.subContainerTheServices {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subContainerTheServices:nth-child(2) {
+  background: #f3b1b1;
+}
+
+.name2 {
+  font-size: 64px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  line-height: 66px;
+}
+
+.subTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.text2 {
+  font-size: 18px;
+  padding: 0 100px;
+  line-height: 32px;
+}
+
+.contentTheServices2 {
+  height: 86%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid white;
+  background: white;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .5);
+}
+
+.contentTheServices2:hover {
+  box-shadow: 0 0 10px black;
+}
+
+.contentTheServices2 p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contentTheServices2 a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 160px;
+}
+
+.contentTheServices2 a p:hover {
+  font-size: 24px;
+}
+
+.contentTheServices2 a img:hover {
+  height: 30%;
+}
+
+.contentTheServices {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width:950px) {
+  #theServices {
+    height: 1400px;
+  }
+
+  .containerTheServices {
+    height: 1200px;
+  }
+
+  .subContainerTheServices {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .contentTheServices {
+    height: 50%;
+    width: 100%;
+  }
+
+  .contentTheServices2 {
+    width: 90%;
+  }
+
+  .text2 {
+    padding: 0 150px;
+    line-height: 24px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  #theServices {
+    height: 1600px;
+  }
+
+  .containerTheServices {
+    height: 1400px;
+  }
+
+  .name2 {
+    font-size: 42px;
+  }
+
+  .text2 {
+    font-size: 15px;
+    padding: 0 20px;
+    line-height: 30px;
+  }
+
+  .contentTheServices2 p {
+    font-size: 15px;
+  }
+
+  .contentTheServices2 a img {
+    height: 10%;
+  }
+}
+
+@media screen and (max-width:350px) {
+  #theServices {
+    height: 1600px;
+  }
+
+  .containerTheServices {
+    height: 1400px;
+  }
+
+  .name2 {
+    font-size: 22px;
+  }
+
+  .text2 {
+    font-size: 12px;
+    padding: 0 10px;
+    line-height: 20px;
+  }
+}

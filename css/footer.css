@@ -1,4 +1,4 @@
-#footer {
+.footer {
   background: #0d421b;
   padding: 60px 0 4px 0;
   margin: auto;
@@ -91,7 +91,7 @@
 }
 
 @media screen and (max-width:950px) {
-  #footer {
+  .footer {
     height: 1000px;
     padding-top: 10px;
   }

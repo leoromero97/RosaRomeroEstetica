@@ -6,6 +6,7 @@
 @import './bidding.css';
 @import './clients.css';
 @import './footer.css';
+@import '../services/cssServices/theServices.css';
 
 body,
 html {

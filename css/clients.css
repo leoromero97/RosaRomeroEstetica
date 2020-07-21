@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #f3b1b1;
+  background: #ffb6c1;
   justify-content: space-between;
 }
 
@@ -67,7 +67,7 @@
 
 .cardClients h3 {
   font-size: 28px;
-  background: #f3b1b1;
+  background: #ffb6c1;
   text-align: center;
   width: 90%;
   height: 30px;

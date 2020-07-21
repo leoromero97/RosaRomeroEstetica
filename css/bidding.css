@@ -80,7 +80,7 @@
 }
 
 .back {
-  background:#f3b1b1;
+  background: #ffb6c1; 
   transform: perspective(600px) rotateY(180deg);
   -webkit-transform: perspective(600px) rotateY(180deg);
   -moz-transform: perspective(600px) rotateY(180deg);
@@ -125,11 +125,13 @@
   #bidding {
     height: 1800px;
   }
+
   .containerBidding {
     width: 90%;
     height: 1800px;
     justify-content: space-evenly;
   }
+
   .promotionsGallery {
     justify-content: space-between;
     flex-direction: column;

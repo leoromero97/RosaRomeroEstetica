@@ -1,5 +1,5 @@
 .footer {
-  background: #0d421b;
+  background: rgb(61, 165, 113);
   padding: 60px 0 4px 0;
   margin: auto;
   overflow: hidden;
@@ -29,6 +29,7 @@
 }
 
 .contentenidoFooter h3 {
+  background: #48bf84;
   color: white;
   font-size: 30px;
   font-family: 'Cinzel', serif;
@@ -39,7 +40,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #0f5021;
 }
 
 .contentenidoFooter p,
@@ -54,7 +54,7 @@
 }
 
 .contentenidoFooter a:hover {
-  background: #0f5021;
+  background: #48bf84;
 }
 
 .firma {

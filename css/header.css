@@ -8,6 +8,7 @@
   position: fixed;
   background: white;
   z-index: 1;
+  border-bottom: 4px solid #ffb6c1;
 }
 
 .links {
@@ -35,7 +36,7 @@ ul {
 }
 
 .state {
-  background: #f3b1b1;
+  background: #ffb6c1;
   transition: 1s ease-in-out;
   -webkit-transition: 1s ease-in-out;
   -moz-transition: 1s ease-in-out;
@@ -44,7 +45,7 @@ ul {
 }
 
 .item:hover {
-  background: #f3b1b1;
+  background: #ffb6c1;
   transition: 1s ease-in-out;
   -webkit-transition: 1s ease-in-out;
   -moz-transition: 1s ease-in-out;

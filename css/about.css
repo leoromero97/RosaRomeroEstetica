@@ -110,8 +110,8 @@
 }
 
 .text {
-  font-size: 18px;
-  padding: 0 100px;
+  font-size: 22px;
+  padding: 0 80px;
   line-height: 32px;
 }
 
@@ -121,9 +121,9 @@
   }
 
   .text {
-    padding: 0 60px;
+    padding: 0 54px;
     line-height: 24px;
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .contentAbout2 {
@@ -164,9 +164,8 @@
   }
 
   .text {
-    font-size: 14px;
     line-height: 20px;
-    padding: 0 20px;
+    padding: 0 10px;
     margin: 10px 0;
   }
 
@@ -190,8 +189,8 @@
   }
 
   .text {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 16px;
-    padding: 0 10px;
+    padding: 0 8px;
   }
 }
